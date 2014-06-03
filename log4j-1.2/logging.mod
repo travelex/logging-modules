@@ -7,12 +7,16 @@
 logging
 
 [lib]
-logging/*.jar
+lib/logging/*.jar
 resources/
 
 [files]
-http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:logging/slf4j-api-1.6.6.jar
-http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar:logging/slf4j-log4j12-1.6.6.jar
-http://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar:logging/log4j-1.2.17.jar
+logs/
+http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:lib/logging/slf4j-api-1.6.6.jar
+http://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar:lib/logging/slf4j-log4j12-1.6.6.jar
+http://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar:lib/logging/log4j-1.2.17.jar
+https://raw.githubusercontent.com/jetty-project/logging-modules/master/log4j-1.2/log4j.properties:resources/log4j.properties
+https://raw.githubusercontent.com/jetty-project/logging-modules/master/log4j-1.2/jetty-logging.properties:resources/jetty-logging.properties
+
 
 
