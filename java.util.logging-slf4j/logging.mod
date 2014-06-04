@@ -6,12 +6,14 @@
 [name]
 logging
 
+[depend]
+resources
+
 [xml]
 etc/jetty-logging.xml
 
 [lib]
 lib/logging/*.jar
-resources/
 
 [files]
 logs/
