@@ -14,7 +14,7 @@ lib/webapp-logging/*.jar
 
 [xml]
 etc/jetty-webapp-logging.xml
-etc/jetty-mdc-hanler.xml
+etc/jetty-mdc-handler.xml
 
 [files]
 http://central.maven.org/maven2/org/eclipse/jetty/jetty-webapp-logging/9.0.0/jetty-webapp-logging-9.0.0.jar|lib/webapp-logging/jetty-webapp-logging-9.0.0.jar
