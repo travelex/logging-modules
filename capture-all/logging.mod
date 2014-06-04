@@ -29,6 +29,7 @@ http://central.maven.org/maven2/ch/qos/logback/logback-core/1.0.7/logback-core-1
 http://central.maven.org/maven2/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar|lib/logging/logback-classic-1.0.7.jar
 https://raw.githubusercontent.com/jetty-project/logging-modules/master/capture-all/logback.xml|resources/logback.xml
 https://raw.githubusercontent.com/jetty-project/logging-modules/master/capture-all/jetty-logging.properties|resources/jetty-logging.properties
+https://raw.githubusercontent.com/jetty-project/logging-modules/master/capture-all/jetty-logging.xml|etc/jetty-logging.xml
 
 
 
