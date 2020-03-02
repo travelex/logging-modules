@@ -10,7 +10,7 @@
 #   Routing/Filtering/Output Managed by Logback
 #
 
-[name]
+[provides]
 logging
 
 [depend]
